@@ -1,0 +1,20 @@
+algoritmo "horas extras"
+// Fun��o :saber quanto o funcionario ganhou
+// Autor :Guilherme Alexandre
+// Data : 20/05/2020
+// Se��o de Declara��es 
+var
+hora: real
+mes: real
+result: real
+inicio
+// Se��o de Comandos
+escreval ("digite quantas horas ele trabalhou neste mes")
+leia (mes)
+escreval ("digite o valor que ele recebe por horas")
+leia (hora)
+//processamento
+result <- (mes*hora)*1.70
+//saida
+escreval ("ele devera receber" , result)
+fimalgoritmo
